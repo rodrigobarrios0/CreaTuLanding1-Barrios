@@ -1,14 +1,16 @@
 import './App.css'
+import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
+
 
 function App() {
   return (
-    <h1>Holaa React</h1>
-    
+    <>
+      <NavBar />
+      <ItemListContainer mensaje="Bienvenidos a nuestra tienda" />
+    </>
   );
 };
 
-const Button = ({ label, onClick }) => {
-  return <button onClick={onClick}>{label}</button>;
-};
 
 export default App;

@@ -1,24 +1,24 @@
 const products = [
 {
     id: "1",
-    title: "Remera 1",
+    title: "Remera roja",
     price: 15000,
     category: "remeras",
-    description: "Remera 1"
+    description: "Remera roja cómoda y fresca"
 },
 {
     id: "2",
-    title: "Remera 2",
+    title: "Remera azul",
     price: 14000,
     category: "remeras",
-    description: "Remera 2"
+    description: "Remera azul cómoda y fresca"
 },
 {
     id: "3",
-    title: "Buzo 3",
+    title: "Buzo gris",
     price: 25000,
     category: "buzos",
-    description: "Buzo 3"
+    description: "Buzo gris abrigado y suave"
 }
 ];
 

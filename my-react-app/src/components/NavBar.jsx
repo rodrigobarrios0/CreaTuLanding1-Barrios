@@ -16,13 +16,13 @@ const NavBar = () => {
         <div className="flex gap-6 text-lg">
 
         <Link
-            to="/category/remeras"
+            to="/"
             className="text-red-400 visited:text-red-400 hover:text-white transition">
             Remeras
         </Link>
 
         <Link
-            to="/category/buzos"
+            to="/"
             className="text-red-400 visited:text-red-400 hover:text-white transition">
             Buzos
         </Link>

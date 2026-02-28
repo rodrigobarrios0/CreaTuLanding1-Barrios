@@ -5,26 +5,36 @@ const NavBar = () => {
     <nav className="bg-gray-900 p-5 w-full">
     <div className="w-full max-w-6xl mx-auto flex justify-between items-center">
 
-        {/* Logo/inicio */}
         <Link
             to="/"
             className="text-white text-2xl font-bold tracking-wide">
-            Inicio
+            🛍️ Mi Tienda
         </Link>
 
-        {/* Links de navegación */}
         <div className="flex gap-6 text-lg">
 
         <Link
-            to="/"
+            to="/category/electronics"
             className="text-red-400 visited:text-red-400 hover:text-white transition">
-            Remeras
+            Electrónica
         </Link>
 
         <Link
-            to="/"
+            to="/category/jewelery"
             className="text-red-400 visited:text-red-400 hover:text-white transition">
-            Buzos
+            Joyería
+        </Link>
+
+        <Link
+            to="/category/men's clothing"
+            className="text-red-400 visited:text-red-400 hover:text-white transition">
+            Hombre
+        </Link>
+
+        <Link
+            to="/category/women's clothing"
+            className="text-red-400 visited:text-red-400 hover:text-white transition">
+            Mujer
         </Link>
 
         </div>
